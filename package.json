@@ -1,0 +1,99 @@
+{
+	"name": "vscode-vue-basic-snippets",
+	"publisher": "NicholasHsiang",
+	"displayName": "Vue Basic Snippets",
+	"description": "Code snippets for Vue Basic",
+	"icon": "art/icon.png",
+	"version": "0.0.1",
+	"galleryBanner": {
+		"color": "#ffffff",
+		"theme": "dark"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/xianghongai/vscode-vue-basic-snippets/issues"
+	},
+	"homepage": "https://github.com/xianghongai/vscode-vue-basic-snippets/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xianghongai/vscode-vue-basic-snippets/blob/master/README.md"
+	},
+	"engines": {
+		"vscode": "^0.12.x"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"keywords": [
+		"Snippet",
+		"Vue",
+		"Vue Router",
+		"Vuex",
+		"Vue 2",
+		"Vue 3",
+		"Vue2",
+		"Vue3",
+		"Vue 2 Snippets",
+		"Vue2 Snippets",
+		"Vue 2 Code Snippets",
+		"Vue2 Code Snippets",
+		"Vue 3 Snippets",
+		"Vue3 Snippets",
+		"Vue 3 Code Snippets",
+		"Vue3 Code Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "vue",
+				"aliases": [
+					"Vue",
+					"vue"
+				],
+				"extensions": [
+					".vue"
+				]
+			}
+		],
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "vue-html",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "css",
+				"path": "./snippets/css.json"
+			},
+			{
+				"language": "scss",
+				"path": "./snippets/css.json"
+			},
+			{
+				"language": "less",
+				"path": "./snippets/css.json"
+			}
+		]
+	},
+	"scripts": {
+		"build": "node merge.js && vsce package"
+	},
+	"devDependencies": {
+		"glob": "^7.1.4"
+	}
+}
