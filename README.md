@@ -22,7 +22,7 @@
 
 [中文](./README_CN.md)
 
-You need to install "[Vue 2 Snippets](https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue2-snippets)" or "Vue 3 Snippets" (coming soon).
+🌈🌈🌈 Need to install "[Vue 2 Snippets](https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue2-snippets)" **or** "Vue 3 Snippets" (coming soon), **they are one combined release.**
 
 ## Design
 
