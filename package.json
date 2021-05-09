@@ -43,18 +43,6 @@
 		"Vue3 Code Snippets"
 	],
 	"contributes": {
-		"languages": [
-			{
-				"id": "vue",
-				"aliases": [
-					"Vue",
-					"vue"
-				],
-				"extensions": [
-					".vue"
-				]
-			}
-		],
 		"snippets": [
 			{
 				"language": "html",
@@ -70,6 +58,10 @@
 			},
 			{
 				"language": "javascript",
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "javascriptreact",
 				"path": "./snippets/javascript.json"
 			},
 			{
@@ -91,7 +83,9 @@
 		]
 	},
 	"scripts": {
-		"build": "node merge.js && vsce package"
+		"vscode:prepublish": "npm run compile",
+		"compile": "node merge.js",
+		"package": "npm run vscode:prepublish && vsce package"
 	},
 	"devDependencies": {
 		"glob": "^7.1.4"
