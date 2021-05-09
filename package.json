@@ -4,7 +4,7 @@
 	"displayName": "Vue Basic Snippets",
 	"description": "Code snippets for Vue Basic",
 	"icon": "art/icon.png",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"galleryBanner": {
 		"color": "#ffffff",
 		"theme": "dark"
@@ -85,7 +85,7 @@
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "node merge.js",
-		"package": "npm run vscode:prepublish && vsce package"
+		"build": "npm run vscode:prepublish && vsce package"
 	},
 	"devDependencies": {
 		"glob": "^7.1.4"
