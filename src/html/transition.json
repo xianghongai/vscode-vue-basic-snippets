@@ -6,7 +6,7 @@
 			"  $0",
 			"</transition>"
 		],
-		"description": "Vue Transition Element.\n@link https://vuejs.org/v2/api/#transition"
+		"description": "Vue Transition Element.\n@link https://vuejs.org/v2/api/#transition\n"
 	},
 	"Vue Transition Component with JavaScript Hooks": {
 		"prefix": "transition",
@@ -26,7 +26,7 @@
 			"  $0",
 			"</transition>"
 		],
-		"description": "Vue Transition Component with JavaScript Hooks."
+		"description": "Vue Transition Component with JavaScript Hooks.\n"
 	},
 	"Vue transition-group Component": {
 		"prefix": "transitionGroup",
@@ -35,13 +35,13 @@
 			"  $2",
 			"</transition-group>"
 		],
-		"description": "transition-group element, \n@link https://vuejs.org/v2/api/#transition"
+		"description": "transition-group element, \n@link https://vuejs.org/v2/api/#transition\n"
 	},
 
 	"enter-class": {
 		"prefix": ["enterClass", "transitionEnterClass"],
 		"body": ["enter-class=\"${1:feature-enter}\"$0"],
-		"description": "enter-class='feature-enter-class'. Expects: string.\nVue 3.x `enter-class` is renamed to `enter-from-class`."
+		"description": "enter-class='feature-enter-class'. Expects: string.\nVue 3.x `enter-class` is renamed to `enter-from-class`.\n"
 	},
 	"enter-from-class": {
 		"prefix": [
@@ -51,7 +51,7 @@
 		"body": [
 			"enter-from-class=\"${1:feature-enter-from}\"$0"
 		],
-		"description": "enter-from-class='feature-enter-from'. Expects: string."
+		"description": "enter-from-class='feature-enter-from'. Expects: string.\n"
 	},
 	"enter-active-class": {
 		"prefix": [
@@ -61,18 +61,18 @@
 		"body": [
 			"enter-active-class=\"${1:feature-enter-active}\"$0"
 		],
-		"description": "enter-active-class='feature-enter-active-class'. Expects: string."
+		"description": "enter-active-class='feature-enter-active-class'. Expects: string.\n"
 	},
 	"enter-to-class": {
 		"prefix": ["enterToClass", "transitionEnterToClass"],
 		"body": ["enter-to-class=\"${1:feature-enter-to}\"$0"],
-		"description": "enter-to-class='feature-enter-to-class'. Expects: string."
+		"description": "enter-to-class='feature-enter-to-class'. Expects: string.\n"
 	},
 
 	"leave-class": {
 		"prefix": ["leaveClass", "transitionLeaveClass"],
 		"body": ["leave-class=\"${1:feature-leave}\"$0"],
-		"description": "leave-class='feature-leave-class'. Expects: string.\nVue 3.x `leave-class` is renamed to `leave-from-class`."
+		"description": "leave-class='feature-leave-class'. Expects: string.\nVue 3.x `leave-class` is renamed to `leave-from-class`.\n"
 	},
 	"leave-from-class": {
 		"prefix": [
@@ -82,12 +82,12 @@
 		"body": [
 			"leave-from-class=\"${1:feature-from-leave}\"$0"
 		],
-		"description": "leave-from-class='feature-leave-from'. Expects: string."
+		"description": "leave-from-class='feature-leave-from'. Expects: string.\n"
 	},
 	"leave-to-class": {
 		"prefix": ["leaveToClass", "transitionLeaveToClass"],
 		"body": ["leave-to-class=\"${1:feature-leave-to}\"$0"],
-		"description": "leave-to-class='feature-leave-to-class'. Expects: string."
+		"description": "leave-to-class='feature-leave-to-class'. Expects: string.\n"
 	},
 	"leave-active-class": {
 		"prefix": [
@@ -97,27 +97,27 @@
 		"body": [
 			"leave-active-class=\"${1:feature-leave-active}\"$0"
 		],
-		"description": "leave-active-class='feature-leave-active-class'. Expects: string."
+		"description": "leave-active-class='feature-leave-active-class'. Expects: string.\n"
 	},
 
 	"appear-class": {
 		"prefix": ["appearClass", "transitionAppearClass"],
 		"body": ["appear-class=\"${1:feature-appear}\"$0"],
-		"description": "appear-class='feature-appear-class'. Expects: string."
+		"description": "appear-class='feature-appear-class'. Expects: string.\n"
 	},
 	"appear-from-class": {
 		"prefix": ["appearFromClass", "transitionAppearClass"],
 		"body": [
 			"appear-from-class=\"${1:feature-appear-from}\"$0"
 		],
-		"description": "appear-from-class='feature-appear-from'. Expects: string."
+		"description": "appear-from-class='feature-appear-from'. Expects: string.\n"
 	},
 	"appear-to-class": {
 		"prefix": ["appearToClass", "transitionAppearToClass"],
 		"body": [
 			"appear-to-class=\"${1:feature-appear-to}\"$0"
 		],
-		"description": "appear-to-class='feature-appear-to-class'. Expects: string."
+		"description": "appear-to-class='feature-appear-to-class'. Expects: string.\n"
 	},
 	"appear-active-class": {
 		"prefix": [
@@ -127,7 +127,7 @@
 		"body": [
 			"appear-active-class=\"${1:feature-appear-active}\"$0"
 		],
-		"description": "appear-active-class='feature-appear-active-class'. Expects: string."
+		"description": "appear-active-class='feature-appear-active-class'. Expects: string.\n"
 	},
 
 	"before-enter-hook": {
@@ -136,12 +136,12 @@
 			"transitionBeforeEnterHook"
 		],
 		"body": ["@before-enter=\"${1:beforeEnter}\"$0"],
-		"description": "@before-enter='beforeEnter'"
+		"description": "@before-enter='beforeEnter'\n"
 	},
 	"enter-hook": {
 		"prefix": ["enterHook", "transitionEnterHook"],
 		"body": ["@enter=\"${1:enter}\"$0"],
-		"description": "@enter='enter'"
+		"description": "@enter='enter'\n"
 	},
 	"after-enter-hook": {
 		"prefix": [
@@ -149,7 +149,7 @@
 			"transitionAfterEnterHook"
 		],
 		"body": ["@after-enter=\"${1:afterEnter}\"$0"],
-		"description": "@after-enter='afterEnter'"
+		"description": "@after-enter='afterEnter'\n"
 	},
 	"enter-cancelled-hook": {
 		"prefix": [
@@ -157,7 +157,7 @@
 			"transitionEnterCancelledHook"
 		],
 		"body": ["@enter-cancelled=\"${1:enterCancelled}\"$0"],
-		"description": "@enter-cancelled='enterCancelled'"
+		"description": "@enter-cancelled='enterCancelled'\n"
 	},
 
 	"before-leave-hook": {
@@ -166,12 +166,12 @@
 			"transitionBeforeLeaveHook"
 		],
 		"body": ["@before-leave=\"${1:beforeLeave}\"$0"],
-		"description": "@before-leave='beforeLeave'"
+		"description": "@before-leave='beforeLeave'\n"
 	},
 	"leave-hook": {
 		"prefix": ["leaveHook", "transitionLeaveHook"],
 		"body": ["@leave=\"${1:leave}\"$0"],
-		"description": "@leave='leave'"
+		"description": "@leave='leave'\n"
 	},
 	"after-leave-hook": {
 		"prefix": [
@@ -179,7 +179,7 @@
 			"transitionAfterLeaveHook"
 		],
 		"body": ["@after-leave=\"${1:afterLeave}\"$0"],
-		"description": "@after-leave='afterLeave'"
+		"description": "@after-leave='afterLeave'\n"
 	},
 	"leave-cancelled-hook": {
 		"prefix": [
@@ -187,7 +187,7 @@
 			"transitionLeaveCancelledHook"
 		],
 		"body": ["@leave-cancelled=\"${1:leaveCancelled}\"$0"],
-		"description": "@leave-cancelled='leaveCancelled' (v-show only)"
+		"description": "@leave-cancelled='leaveCancelled' (v-show only)\n"
 	},
 
 	"before-appear-hook": {
@@ -196,12 +196,12 @@
 			"transitionBeforeAppearHook"
 		],
 		"body": ["@before-appear=\"${1:beforeAppear}\"$0"],
-		"description": "@before-appear='beforeAppear'"
+		"description": "@before-appear='beforeAppear'\n"
 	},
 	"appear-hook": {
 		"prefix": ["appearHook", "transitionAppearHook"],
 		"body": ["@appear=\"${1:appear}\"$0"],
-		"description": "@appear='appear'"
+		"description": "@appear='appear'\n"
 	},
 	"after-appear-hook": {
 		"prefix": [
@@ -209,7 +209,7 @@
 			"transitionAfterAppearHook"
 		],
 		"body": ["@after-appear=\"${1:afterAppear}\"$0"],
-		"description": "@after-appear='afterAppear'"
+		"description": "@after-appear='afterAppear'\n"
 	},
 	"appear-cancelled-hook": {
 		"prefix": [
@@ -219,6 +219,6 @@
 		"body": [
 			"@appear-cancelled=\"${1:appearCancelled}\"$0"
 		],
-		"description": "@appear-cancelled='appearCancelled'"
+		"description": "@appear-cancelled='appearCancelled'\n"
 	}
 }

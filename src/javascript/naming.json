@@ -1,0 +1,14 @@
+{
+  "Component/Directive/Service Naming": {
+		"prefix": "cn",
+		"body": ["name: '${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}',"],
+		"description": "Component/Directive/Service: The name of the file opened by PascalCase\n"
+	},
+	"Page Naming": {
+		"prefix": "pn",
+		"body": [
+			"name: '${WORKSPACE_NAME/(.*)/${1:/pascalcase}/}${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}',"
+		],
+		"description": "Page name: The name of the directory and file opened by PascalCase\n"
+	}
+}
