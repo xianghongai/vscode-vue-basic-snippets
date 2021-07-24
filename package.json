@@ -22,9 +22,10 @@
 		"vscode": "^0.12.x"
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "node merge.js",
-		"build": "npm run vscode:prepublish && vsce package"
+		"prebuild": "node merge.js",
+		"build": "vsce package",
+		"prepublish": "npm run build",
+		"publish": "vsce publish"
 	},
 	"categories": [
 		"Snippets"
