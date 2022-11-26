@@ -1,4 +1,16 @@
 {
+  "Import Vue Component": {
+		"prefix": ["importComponent", "ivc"],
+		"body": [
+			"import $1 from '@/components/${1:Feature}';$0"
+		]
+	},
+  "Import Directive": {
+		"prefix": ["importDirective", "ivd"],
+		"body": [
+			"import $1 from '@/directives/${1:Feature}';$0"
+		]
+	},
 	"Import Service": {
 		"prefix": ["importService", "ivs"],
 		"body": [

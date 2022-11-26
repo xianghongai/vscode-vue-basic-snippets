@@ -186,8 +186,16 @@ Vue 2 和 3 变化比较大，2 推荐 Optional 范式，3 推荐 Composition Fu
 - `appearToCSS`/ `transitionAppearToCSS`  → `.feature-appear-to {}`
 - `appearActiveCSS`/`transitionAppearActiveCSS`  → `.feature-appear-active {}`
 
-
 ### JavaScript 🌿
+
+#### Import
+
+- `importComponent` / `ivc`, `import Feature from '@/components/Feature';`, **i**mport a **v**ue **c**omponent
+- `importDirective` / `ivd`, `import Feature from '@/directives/Feature';`, **i**mport a **v**ue **d**irective
+- `importService` / `ivs`, `import { Feature } from '@/services/Feature';`, **i**mport a **v**ue **s**ervice
+- `importUtil` / `ivu`, `import { Feature } from '@/utils/Feature';`, **i**mport a **v**ue **u**til
+- `importConstant` / `ivc`, `import { Feature } from '@/constants/Feature';`, **i**mport a **v**ue **c**onstant
+- `importConfig` / `ivcg`, `import { Feature } from '@/configs/Feature';`, **i**mport a **v**ue **c**nfi**g**
 
 #### Transition
 
