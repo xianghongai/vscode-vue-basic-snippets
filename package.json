@@ -3,8 +3,9 @@
 	"publisher": "NicholasHsiang",
 	"displayName": "Vue Basic Snippets",
 	"description": "Code snippets for Vue Basic",
+  "deprecated": "This extension is deprecated. Please migrate to 'Vue 2 Snippets' or 'Vue 3 Snippets'.",
 	"icon": "art/icon.png",
-	"version": "0.0.5",
+	"version": "1.0.0",
 	"galleryBanner": {
 		"color": "#ffffff",
 		"theme": "dark"

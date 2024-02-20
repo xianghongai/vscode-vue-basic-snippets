@@ -1,5 +1,7 @@
 # Vue Basic Snippets (Visual Studio Code)
 
+**弃用！** 已迁移至 [Vue2](https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue2-snippets) 或 [Vue3](https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue3-snippets) 代码片断中，不在单独维护了。
+
 您需要安装 “[Vue 2 Snippets](https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue2-snippets)” 或 “[Vue 3 Snippets](https://github.com/xianghongai/vscode-vue3-snippets/)”（要考试没时间整，快速弄了个简版的）。
 
 ## 规划

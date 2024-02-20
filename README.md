@@ -4,21 +4,25 @@
 
 <p align="center">
   <a href="https://github.com/xianghongai/vscode-vue-basic-snippets">
-    <img src="https://img.shields.io/github/repo-size/xianghongai/vscode-vue-basic-snippets?style=plastic&color=4ac51c">
+    <img src="https://img.shields.io/github/repo-size/xianghongai/vscode-vue-basic-snippets?color=4ac51c&style=plastic&?cacheSeconds=3600">
   </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue-basic-snippets">
-    <img src="https://vsmarketplacebadge.apphb.com/version-short/NicholasHsiang.vscode-vue-basic-snippets.svg?style=plastic&color=f07b3c">
+  <a href="https://marketplace.visualstudio.com/items?itemName=nicholashsiang.vscode-vue-basic-snippets">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/nicholashsiang.vscode-vue-basic-snippets?color=%234ac51c&style=plastic&?cacheSeconds=3600">
   </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue-basic-snippets">
-    <img src="https://vsmarketplacebadge.apphb.com/installs-short/NicholasHsiang.vscode-vue-basic-snippets.svg?style=plastic&color=4ac51c">
+  <a href="https://marketplace.visualstudio.com/items?itemName=nicholashsiang.vscode-vue-basic-snippets">
+    <img src="https://img.shields.io/visual-studio-marketplace/d/nicholashsiang.vscode-vue-basic-snippets?color=4ac51c&style=plastic&?cacheSeconds=3600">
   </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue-basic-snippets">
-    <img src="https://vsmarketplacebadge.apphb.com/rating-short/NicholasHsiang.vscode-vue-basic-snippets.svg?style=plastic&color=4ac51c">
+  <a href="https://marketplace.visualstudio.com/items?itemName=nicholashsiang.vscode-vue-basic-snippets">
+    <img src="https://img.shields.io/visual-studio-marketplace/r/nicholashsiang.vscode-vue-basic-snippets?color=4ac51c&style=plastic&?cacheSeconds=3600">
   </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue-basic-snippets">
-    <img src="https://img.shields.io/github/license/xianghongai/vscode-vue-basic-snippets?maxAge=2592000&style=plastic&color=4ac51c">
+  <a href="https://marketplace.visualstudio.com/items?itemName=nicholashsiang.vscode-vue-basic-snippets">
+    <img src="https://img.shields.io/github/license/xianghongai/vscode-vue-basic-snippets?color=4ac51c&style=plastic&?cacheSeconds=3600">
   </a>
 </p>
+
+**Deprecated!** It has been included in the [Vue2](https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue2-snippets) or [Vue3](https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue3-snippets) code snippets, no longer maintained separately.
+
+**弃用！** 已迁移至 [Vue2](https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue2-snippets) 或 [Vue3](https://marketplace.visualstudio.com/items?itemName=NicholasHsiang.vscode-vue3-snippets) 代码片断中，不在单独维护了。
 
 [中文](./README_CN.md)
 
